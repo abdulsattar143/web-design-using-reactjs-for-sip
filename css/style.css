@@ -1,0 +1,62 @@
+.paragraph{
+	background-color:yellow;
+	color:blue; 
+}
+
+#para{
+	background-color:yellow;
+	color:red; 
+}
+
+#para{
+	background-color:violet;
+	color:black; 
+}
+
+.first,.second,.third,.fourth{
+	border: 2px solid #ddd;
+	margin: 2px;
+	width: 200px;
+	text-align: center;
+}
+
+/*.first img,.second img,.third img,.fourth img{
+	width: 200px;
+padding: 10px;
+}*/
+img{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	display :flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 425px) 
+
+{
+	.parent{
+		flex-direction:column;
+	}
+	.first{
+		background-color: #c45e45;
+	}
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 768px)
+
+{
+	.parent{
+		flex-direction:row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.third,.forth{
+		background-color: #c45e45;
+		border-radius: 20px;
+		width: 200px;
+	}
+}

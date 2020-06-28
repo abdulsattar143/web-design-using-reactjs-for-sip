@@ -1,0 +1,54 @@
+h4{
+	background-color: blue;
+	color: yellow;
+}
+
+.first{
+
+	width: 500px;
+	height:250px;
+	text-align: center;
+}
+
+.second,.third
+{
+	width: 500px;
+	height:200px;
+	text-align: left;
+}
+
+.fifth{
+
+width:850px;
+height:120px;
+
+
+}
+.sixth,.seventh{
+
+	width:850px;
+	height:300px;
+}
+
+.eight,.ninth{
+
+	width:850px;
+	height:100px;
+	
+}
+.parent{
+	display: flex;
+
+}
+.parent1,.first,.second,.third{
+	border: 1px solid #000;
+	padding: 2px;
+
+}
+
+.parent2,.fourth,.fifth,.sixth,.seventh,.eight{
+	border: 1px solid #000;
+	padding: 2px;
+
+}
+
